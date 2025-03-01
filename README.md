@@ -1,29 +1,18 @@
-# Audio Technology - Notre Dame  
+# Audio Technology - University of Notre Dame
 
-This repository contains coursework, projects, and experiments related to audio technology at Notre Dame. It includes digital signal processing (DSP) techniques, sound synthesis, audio analysis, and hardware-based audio experiments.  
+This repository contains course materials and Python scripts for the Audio Technology course at the University of Notre Dame. The focus is on digital signal processing (DSP) and audio analysis techniques.
 
-## Features  
-- 🎵 **Digital Signal Processing (DSP):** Implementations of filtering, Fourier transforms, and signal analysis.  
-- 🔊 **Sound Synthesis:** Experiments with waveform generation, additive/subtractive synthesis, and MIDI processing.  
-- 🎚 **Audio Analysis:** Spectrogram visualization, noise reduction, and feature extraction from audio signals.  
-- 🖥 **Software & Hardware Integration:** Projects using programming tools like Python, MATLAB, and Arduino for audio applications.  
+## Contents
 
-## Contents  
-| Section               | Description                                          |
-|-----------------------|------------------------------------------------------|
-| `dsp_algorithms/`    | Digital signal processing techniques and filters.    |
-| `synthesis/`         | Sound synthesis experiments and waveform generation.  |
-| `audio_analysis/`    | Spectrograms, pitch detection, and noise filtering.  |
-| `hardware_projects/` | Arduino, Raspberry Pi, and other hardware projects.  |
+- `README.md`: This file.
+- `file_example_WAV_1MG.wav`: Example WAV audio file used in exercises.
 
-## Getting Started  
-### **Software Requirements**  
-- Python (with `numpy`, `scipy`, `matplotlib`, `librosa` for audio processing).  
-- MATLAB (for signal processing and simulation).  
-- Arduino IDE (for hardware-based audio projects).  
+## Prerequisites
 
-### **Usage**  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/cjkreienkamp/audio-technology-notre-dame.git
-   cd audio-technology-notre-dame
+- Python 3
+- Required Python libraries: `numpy`, `scipy`, `matplotlib`
+
+Install the necessary libraries using:
+
+```bash
+pip install numpy scipy matplotlib
